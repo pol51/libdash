@@ -25,7 +25,7 @@ find_package(Qt5OpenGL)
 # Find libavcodec
 find_package(LibAV REQUIRED)
 
-set(LIBDASH_LIBRARIES "../build/bin/" CACHE PATH "Path to libdash.so")
+set(LIBDASH_LIBRARIES "../libdash/build/" CACHE PATH "Path to libdash.so")
 set(LIBDASH_INCLUDES "../libdash/include/" CACHE PATH "Path to libdash includes")
 
 include_directories(${LIBDASH_INCLUDES})
